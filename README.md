@@ -1,2 +1,31 @@
-# American_cancer_stats
-Project 1 - American Cancer Statistics by Year
+# American Cancer Statistics by Year
+Project 1 
+Members: Cassidy, Adam, Mina, Abel and Jessica
+
+## Description
+
+Each team member will look at a particular variable to assess if there are identifiable trends of cancer rates year over year in the United States for variables including:
+-Age
+-Gender
+-Location
+-Race
+
+## Questions
+1. Are cancer incidence and mortality rates increasing each year?
+2. Does age have an impact on cancer rates?
+3. Does gender have an impact on cancer rates?
+4. Does location have an impact on cancer rates?
+5. Does race have an impact on cancer rates?
+
+### Dependencies
+
+import pandas as pd
+from matplotlib import pyplot as plt
+import scipy.stats as stats
+from scipy.stats import linregress
+
+### Data Source
+
+Centers for Disease Control, US Cancer Statistics.
+https://www.cdc.gov/cancer/uscs/dataviz/download_data.htm
+![image](https://github.com/cassidyschul/American_cancer_stats/assets/150754166/3dfb8ade-5bcf-4d71-876e-8d4e720d9404)
