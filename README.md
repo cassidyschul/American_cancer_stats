@@ -23,7 +23,10 @@ Each team member will look at a particular variable to assess if there are ident
 import pandas as pd\
 from matplotlib import pyplot as plt\
 import scipy.stats as stats\
-from scipy.stats import linregress
+from scipy.stats import linregress\
+import numpy as np\
+import seaborn as sns\
+import warnings
 
 
 ### Data Source
