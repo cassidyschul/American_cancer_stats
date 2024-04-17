@@ -1,6 +1,6 @@
 # American Cancer Statistics by Year
 Project 1 
-Members: Cassidy, Adam, Mina, Abel and Jessica
+Members: Cassidy, Mina, Abel and Jessica
 
 ## Description
 
