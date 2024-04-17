@@ -1,13 +1,14 @@
-# American Cancer Statistics by Year
+# American Cancer Statistics
 Project 1 
 Members: Cassidy, Mina, Abel and Jessica
 
 ## Description
 
 Each team member will look at a particular variable to assess if there are identifiable trends of cancer rates year over year in the United States for variables including:
--Age
--Gender
--Location
+
+-Age\
+-Gender\
+-Location\
 -Race
 
 ## Questions
@@ -19,10 +20,11 @@ Each team member will look at a particular variable to assess if there are ident
 
 ### Dependencies
 
-import pandas as pd
-from matplotlib import pyplot as plt
-import scipy.stats as stats
+import pandas as pd\
+from matplotlib import pyplot as plt\
+import scipy.stats as stats\
 from scipy.stats import linregress
+
 
 ### Data Source
 
