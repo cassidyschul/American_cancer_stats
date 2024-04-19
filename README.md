@@ -34,3 +34,6 @@ import warnings
 Centers for Disease Control, US Cancer Statistics.
 https://www.cdc.gov/cancer/uscs/dataviz/download_data.htm
 ![image](https://github.com/cassidyschul/American_cancer_stats/assets/150754166/3dfb8ade-5bcf-4d71-876e-8d4e720d9404)
+
+## Presentation
+https://docs.google.com/presentation/d/16uDzYJyzhzR3JSWRfEXCCcfPQvvrbWO4cvrNInJ52ks/edit?usp=sharing
