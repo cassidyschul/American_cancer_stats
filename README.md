@@ -14,7 +14,29 @@ Mortality counts (per 100,000) were also investigated and visualized in the same
 ![boxplot_Mortality_Male and Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Mortality_Male%20and%20Female.png?raw=true)
 ![scatter_Mortality_Male and Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Mortality_Male%20and%20Female.png?raw=true)
 
-Based on the data it can conlcuded that cancer rates are slightly increasing while mortality rates are slightly decreasing. 
+Based on the data it can be conlcuded that cancer rates are slightly increasing while mortality rates are slightly decreasing. Both boxplots and scatter plots were created to visualize the data. 
+
+### Hypothesis 2: Gender does have an impact on cancer rates and type
+Both incidence and mortality counts (per 100,000) were investigated seperately for males and females to determine the impact of gender on cancer rates. 
+
+![boxplot_Incidence_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Incidence_Female.png?raw=true)
+![boxplot_Incidence_Male.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Incidence_Male.png?raw=true)
+![scatter_Incidence_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Incidence_Female.png?raw=true)
+![scatter_Incidence_Male.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Incidence_Male.png?raw=true)
+
+Based on the incidence count data for both males and females, the incidence rates are increasing for both genders. Correlation analysis between the incidence count and year indicated a weak positive correlation (r = 0.39) for females and a very weak positive correlation (r = 0.22) for males. 
+
+![boxplot_Mortality_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Mortality_Female.png?raw=true)
+![boxplot_Mortality_Male.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Mortality_Male.png?raw=true)
+![scatter_Mortality_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Mortality_Female.png?raw=true)
+![scatter_Mortality_Male.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Mortality_Male.png?raw=true)
+
+The mortality count data for both genders shows that mortality rates are slightly decreasing for both genders. Correlation analysis between the mortality count and year indicated a very weak negative correlation for females (r = 0.13) and males (r = 0.06). 
+
+Bar charts were created to compare incidence and mortality counts between females and males based on the cancer site. 
+![bar_all_years_Incidence.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/bar_all_years_Incidence.png?raw=true)
+![bar_all_years_Mortality.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/bar_all_years_Mortality.png?raw=true)
+
 ### Dependencies
 
 import pandas as pd\
