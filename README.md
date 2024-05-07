@@ -14,7 +14,7 @@ Mortality counts (per 100,000) were also investigated and visualized in the same
 ![boxplot_Mortality_Male and Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Mortality_Male%20and%20Female.png?raw=true)
 ![scatter_Mortality_Male and Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Mortality_Male%20and%20Female.png?raw=true)
 
-Based on the data it can be conlcuded that cancer rates are slightly increasing while mortality rates are slightly decreasing. Both boxplots and scatter plots were created to visualize the data. 
+Based on the data it can be conlcuded that cancer rates are slightly increasing while mortality rates are slightly decreasing. 
 
 ### Hypothesis 2: Gender does have an impact on cancer rates and type
 Both incidence and mortality counts (per 100,000) were investigated seperately for males and females to determine the impact of gender on cancer rates. 
@@ -36,6 +36,10 @@ The mortality count data for both genders shows that mortality rates are slightl
 Bar charts were created to compare incidence and mortality counts between females and males based on the cancer site. 
 ![bar_all_years_Incidence.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/bar_all_years_Incidence.png?raw=true)
 ![bar_all_years_Mortality.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/bar_all_years_Mortality.png?raw=true)
+
+Statistical analysis using the independent t-test was performed to determine if there was significant difference between male and female average incidence and mortality counts. The results indicated that there is not a significant difference between female and male for both incidence average counts for each cancer site (T statistic = 0.341, p value = 0.735) and mortality average counts for each cancer site (T- statistic = 0.417, p value = 0.679). 
+
+
 
 ### Dependencies
 
