@@ -17,7 +17,7 @@ Mortality counts (per 100,000) were also investigated and visualized in the same
 Based on the data it can be conlcuded that cancer rates are slightly increasing while mortality rates are slightly decreasing. 
 
 ### Hypothesis 2: Gender does have an impact on cancer rates and type
-Both incidence and mortality counts (per 100,000) were investigated seperately for males and females to determine the impact of gender on cancer rates. Boxplots and scatter plots were created to show any trends.
+Both incidence and mortality rates (per 100,000) were investigated seperately for males and females to determine the impact of gender on cancer rates. Boxplots and scatter plots were created to show any trends.
 ![boxplot_Incidence_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Incidence_Female.png?raw=true)
 ![boxplot_Incidence_Male.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/boxplot_Incidence_Male.png?raw=true)
 ![scatter_Incidence_Female.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/scatter_Incidence_Female.png?raw=true)
@@ -38,25 +38,31 @@ Bar charts were created to compare incidence and mortality counts between female
 
 Statistical analysis using the independent t-test was performed to determine if there was significant difference between male and female average incidence and mortality counts. The results indicated that there is not a significant difference between female and male for both incidence average counts for each cancer site (T statistic = 0.341, p value = 0.735) and mortality average counts for each cancer site (T- statistic = 0.417, p value = 0.679). 
 
-### Hypothesis 3: Location does have an impact on cancer rates and type
+### Hypothesis 3: Location does have an impact on cancer rates
 
 Both average incidence and mortality rates (per 100,000) were analyzed seperately for each state to determine if location influences cancer rates. Bar charts were created to visualize the data. 
 
 ![Incidence_rate_location.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/Incidence_rate_location.png?raw=true)
 ![Mortality_rate_location.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/Mortality_rate_location.png?raw=true)
 
-Individuals living in Maine, Florida, West Virginia, Pennsylvania, and Rhode Island have a higher cancer incidence rates compared to those living in California, Colorado, Texas, Alaska, and Utah. People living in West Virginia, Maine, Pennsylvania, Kentucky, and Arkansas have a higher cancer mortality rates compared to those living in California, Texas, Colorado, Alaska, and Utah. California, Colorado, Texas, Alaska, and Utah all have the lowest incidence and mortality rates. West Virginia, Maine, and Pennsylvania have both high incidence and mortality rates. 
+Individuals living in Maine, Florida, West Virginia, Pennsylvania, and Rhode Island have a higher cancer incidence rates compared to those living in California, Colorado, Texas, Alaska, and Utah. People living in West Virginia, Maine, Pennsylvania, Kentucky, and Arkansas have a higher cancer mortality rates compared to those living in California, Texas, Colorado, Alaska, and Utah. California, Colorado, Texas, Alaska, and Utah all have the lowest incidence and mortality rates. West Virginia, Maine, and Pennsylvania have both high incidence and mortality rates. Based on the data shown in the bar charts, location does impact cancer rates.
 
+### Hypothesis 4: Age does have an impact on cancer rates
 
-### Dependencies
+Both incidence and mortality rates were investigated for each age range. The data was visualized in bar and line graphs. 
+![cancer incidence bar plot.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/cancer%20incidence%20bar%20plot.png?raw=true)
+![cancer incidence line plot.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/cancer%20incidence%20line%20plot.png?raw=true)
+![cancer mortality bar plot.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/cancer%20mortality%20bar%20plot.png?raw=true)
+![cancer mortality line plot.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/cancer%20mortality%20line%20plot.png?raw=true)
 
-import pandas as pd\
-from matplotlib import pyplot as plt\
-import scipy.stats as stats\
-from scipy.stats import linregress\
-import numpy as np\
-import seaborn as sns\
-import warnings
+As shown in the incidence and mortality rate visualizations, as the age increases the cancer incidence rate and mortality rate increases. Age does have an impact on cancer rates. 
+
+### Hypothesis 5: Race does have an impact on cancer rates
+
+A bar chart was created to visualize the incidence counts based on race. 
+![Distribution_Race.png](https://github.com/cassidyschul/American_cancer_stats/blob/main/Figures/Distribution_Race.png?raw=true)
+
+Based on the data, race does have an impact on cancer rates. 
 
 
 ### Data Source
